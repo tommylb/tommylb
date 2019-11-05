@@ -12,7 +12,8 @@ const useStyles = makeStyles(theme => ({
     cursor: "pointer",
     transform: "rotate(0deg)",
     transition: "all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99)",
-    userSelect: "none"
+    userSelect: "none",
+    zIndex: theme.zIndex.modal + 1
   },
   burgerContainerOpen: {
     transform: "rotate(90deg)"
